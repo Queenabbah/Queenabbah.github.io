@@ -1,0 +1,49 @@
+body{
+    margin: 15px;
+    padding: 15px;
+}
+
+#header {
+    background-color: rgb(244, 193, 143);
+    color: blue;
+    padding: 15px;
+    font-family: sans-serif;
+    font-style: italics;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+    min-height: 40px;
+}
+
+#about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.about-photo img {
+border: 5px solid peachpuff;
+border-radius: 80%;
+width: 160px;
+height: 160px;
+object-fit: cover;
+}
+.about-description{
+    margin-left: 20px;
+    flex: 1;
+
+}
+
+.work-sample img{
+margin-right: 15px;
+width: 300;
+}
+
+#footer {
+    background-color:rgb(240, 203, 147);
+    color:blue;
+    text-align: center;
+    padding: 15px;
+}
